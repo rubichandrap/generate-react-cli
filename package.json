@@ -2,14 +2,14 @@
   "name": "generate-react-cli",
   "version": "7.2.0",
   "description": "A simple React CLI to generate components instantly and more.",
-  "repository": "https://github.com/arminbro/generate-react-cli",
-  "bugs": "https://github.com/arminbro/generate-react-cli/issues",
+  "repository": "https://github.com/rubichandrap/generate-react-cli",
+  "bugs": "https://github.com/rubichandrap/generate-react-cli/issues",
   "author": "Armin Broubakarian",
   "license": "MIT",
-  "main": "index.js",
+  "main": "bin/say-hello.js",
   "bin": {
-    "generate-react": "./bin/generate-react.js",
-    "say-hello": "./bin/say-hello.js"
+    "generate-react": "bin/generate-react.js",
+    "say-hello": "bin/say-hello.js"
   },
   "files": [
     "bin/",
