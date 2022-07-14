@@ -6,9 +6,9 @@
   "bugs": "https://github.com/arminbro/generate-react-cli/issues",
   "author": "Armin Broubakarian",
   "license": "MIT",
-  "main": "bin/generate-react",
+  "main": "index.js",
   "bin": {
-    "generate-react": "bin/generate-react"
+    "generate-react": "./bin/generate-react.js"
   },
   "files": [
     "bin/",
